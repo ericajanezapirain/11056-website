@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700,700i|Dosis:400,500,600,700,800&display=swap');
+
+body {
+    background-color: powderblue;
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px
+}
+
+
+
+/* set the heading styles */
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Crimson Text', serif;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 25px;
+    color: black;
+    border: 1px solid #fff;
+    padding: 20 0 30px 0;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 23px;
+    margin: 10px 0 20px 0;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 25px;
+    color: black;
+
+
+
+}
+
+
+a {
+    color: #ffffff;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+
+
+a:active {
+    color: yellow;
+}
+
+
+
+/*just target the paragraph in teh foot */
+footer p {
+    font-size: 16px;
+    color: blueviolet;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+main ul {
+    list-style-type: disc;
+
+}
+
+
+main ol {
+    list-style-type: decimal;
+
+}
+
+main li {
+
+    margin-left: 40px;
+}
+
+
+
+/*navigation*/
+
+nav ul {
+    list-style-type: none;
+
+}
+
+nav ul li {
+    display: inline;
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 15px 15px;
+    color: azure;
+    background-color: black;
+
+
+}
+
+nav ul li a {
+
+
+    background-color: white;
+    color: black;
+}
+
+
+
+
+.wrapper {
+    width: 980px;
+    /*margin TOP/BOTTOM left/right */
+    margin: 0 auto;
+}
+
+header {
+    background-color: antiquewhite;
+    height: 100px;
+}
+
+nav {
+    background-color: aqua;
+}
+
+nav ul {
+    background-color: pink;
+}
+
+
+nav ul li {
+    background-color: peachpuff;
+}
+
+
+main {
+    background-color: cornsilk;
+    padding: 0 20px;
+
+}
+
+footer {
+    background-color: bisque;
+    height: 200px;
+}
+
+
+img {
+    max-width: 940px;
+}
+
+.image-box .main image {
+    max-height: 300px;
+    border: 1px solid #fff;
+    padding: 20px;
+
+}
