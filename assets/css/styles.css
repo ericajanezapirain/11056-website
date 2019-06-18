@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700,700i|Dosis:400,500,600,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Barlow|Montserrat:400,600,700,800|Tajawal&display=swap');
 
 body {
     background-color: #D2B48C;
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Tajawal', sans-serif;
     font-size: 16px
 }
 
@@ -13,22 +13,26 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: 'Crimson Text', serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
+
 h1 {
-    font-size: 30px;
+    font-weight: 600;
+    font-size: 28px;
     margin: 20px 0;
     color: #FFA07A;
+    text-transform: uppercase;
 }
 
 h2 {
+    font-weight: 600;
     font-size: 25px;
     color: #FFA07A;
-    border: 1px solid #fff;
-    padding: 20 0 30px 0;
+    border: 10px solid #fff;
+    padding: 30 10 30px 10;
     text-align: center;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-transform: uppercase;
 }
 
@@ -38,9 +42,11 @@ h3 {
 }
 
 p {
+    margin-top;
+    20px;
     margin-bottom: 20px;
     font-size: 18px;
-    line-height: 25px;
+    line-height: 20px;
     color: black;
 
 
@@ -68,11 +74,11 @@ a:active {
 
 
 
-/*just target the paragraph in teh foot */
+/*just target the paragraph in the foot */
 footer p {
     font-size: 16px;
-    color: blueviolet;
-    padding: 20px 0;
+    color: black;
+    padding: 20px;
     text-align: center;
 }
 
@@ -110,7 +116,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    padding: 15px 15px;
+    padding: 10px 10px;
     color: azure;
     background-color: black;
 
@@ -143,7 +149,7 @@ nav {
 }
 
 nav ul {
-    background-color: #FFA07A;
+    background-color: antiquewhite;
 }
 
 
@@ -160,7 +166,8 @@ main {
 
 footer {
     background-color: bisque;
-    height: 200px;
+    height: 60px;
+
 }
 
 
