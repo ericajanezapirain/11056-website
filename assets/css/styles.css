@@ -146,7 +146,6 @@ nav ul li a {
 
 
 
-
 .wrapper {
     width: 980px;
     /*margin TOP/BOTTOM left/right */
@@ -186,7 +185,7 @@ nav ul {
 
 
 nav ul li {
-    background-color: peachpuff;
+    background-color: antiquewhite;
 }
 
 
@@ -219,7 +218,8 @@ footer {
 
 
 img {
-    max-width: 940px;
+    max-width: 100%;
+    min-width: 100%;
 }
 
 
@@ -228,6 +228,10 @@ img {
     border: 1px solid #fff;
     padding: 20px;
 
+}
+
+.image-two {
+    max-width: 940px;
 }
 
 
