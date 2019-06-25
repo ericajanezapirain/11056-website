@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow|Montserrat:400,600,700,800|Tajawal&display=swap');
 
 body {
-    background-color: #D2B48C;
+    background-color: darkgrey;
     font-family: 'Tajawal', sans-serif;
     font-size: 16px
 }
@@ -20,15 +20,15 @@ h4 {
 h1 {
     font-weight: 600;
     font-size: 28px;
-    margin: 20px 0;
-    color: #FFA07A;
+    padding: 20px 0;
+    color: lightsteelblue;
     text-transform: uppercase;
 }
 
 h2 {
     font-weight: 600;
     font-size: 25px;
-    color: #FFA07A;
+    color: black;
     border: 10px solid #fff;
     padding: 30 10 30px 10;
     text-align: center;
@@ -42,8 +42,7 @@ h3 {
 }
 
 p {
-    margin-top;
-    20px;
+    margin-top: 20px;
     margin-bottom: 20px;
     font-size: 18px;
     line-height: 20px;
@@ -53,6 +52,20 @@ p {
 
 }
 
+/*
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0 20px;
+}
+*/
+.inner {
+    margin: 0 20px;
+}
 
 a {
     color: #ffffff;
@@ -80,6 +93,7 @@ footer p {
     color: black;
     padding: 20px;
     text-align: center;
+    margin: 0;
 }
 
 
@@ -116,8 +130,8 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    padding: 10px 10px;
-    color: azure;
+    padding: 15px 15px;
+    text-transform: uppercase;
     background-color: black;
 
 
@@ -126,7 +140,7 @@ nav ul li a {
 nav ul li a {
 
 
-    background-color: white;
+    background-color: antiquewhite;
     color: black;
 }
 
@@ -137,19 +151,37 @@ nav ul li a {
     width: 980px;
     /*margin TOP/BOTTOM left/right */
     margin: 0 auto;
+    padding-top: 3px;
 }
 
 header {
     background-color: antiquewhite;
-    height: 100px;
+    position: fixed;
+    width: 100%;
 }
 
+h1 {
+    font-size: 30px;
+    display: inline-block;
+    padding: 10px 0;
+}
+
+
+
+
+
+
 nav {
-    background-color: aqua;
+    background-color: antiquewhite;
+    height: 50px;
+    display: inline-block;
+    float: right;
+
 }
 
 nav ul {
     background-color: antiquewhite;
+    margin-top: 15px;
 }
 
 
@@ -158,14 +190,29 @@ nav ul li {
 }
 
 
+
+
+
+.hero-content {
+    background-image: url(../images/churchill-house-24.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: middle;
+    padding-top: 50px;
+}
+
+
 main {
-    background-color: cornsilk;
-    padding: 0 20px;
+    /* background imageL url(.../   )   */
+    background-color: lightsteelblue;
+    /*    margin: 0 20px;*/
+    /*    padding: 0px 20px 50px 20px;*/
 
 }
 
 footer {
-    background-color: bisque;
+    background-color: antiquewhite;
     height: 60px;
 
 }
@@ -175,9 +222,15 @@ img {
     max-width: 940px;
 }
 
+
 .image-box .main image {
     max-height: 300px;
     border: 1px solid #fff;
     padding: 20px;
 
+}
+
+
+.last-word {
+    clear: both;
 }
