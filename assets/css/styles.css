@@ -29,7 +29,7 @@ h2 {
     font-weight: 600;
     font-size: 25px;
     color: black;
-    border: 10px solid #fff;
+    border-bottom: 10px solid #E37944;
     padding: 30 10 30px 10;
     text-align: center;
     letter-spacing: 1px;
@@ -76,13 +76,13 @@ a:visited {
 }
 
 a:hover {
-    color: hotpink;
+    color: midnightblue;
 }
 
 
 
 a:active {
-    color: yellow;
+    color: blue;
 }
 
 
@@ -140,7 +140,7 @@ nav ul li a {
 nav ul li a {
 
 
-    background-color: antiquewhite;
+    background-color: #ECA52C;
     color: black;
 }
 
@@ -154,7 +154,7 @@ nav ul li a {
 }
 
 header {
-    background-color: antiquewhite;
+    background-color: #ECA52C;
     position: fixed;
     width: 100%;
 }
@@ -171,7 +171,7 @@ h1 {
 
 
 nav {
-    background-color: antiquewhite;
+    background-color: #ECA52C;
     height: 50px;
     display: inline-block;
     float: right;
@@ -179,13 +179,13 @@ nav {
 }
 
 nav ul {
-    background-color: antiquewhite;
+    background-color: #ECA52C;
     margin-top: 15px;
 }
 
 
 nav ul li {
-    background-color: antiquewhite;
+    background-color: #ECA52C;
 }
 
 
@@ -204,14 +204,14 @@ nav ul li {
 
 main {
     /* background imageL url(.../   )   */
-    background-color: lightsteelblue;
+    background-color: whitesmoke;
     /*    margin: 0 20px;*/
     /*    padding: 0px 20px 50px 20px;*/
 
 }
 
 footer {
-    background-color: antiquewhite;
+    background-color: whitesmoke;
     height: 60px;
 
 }
