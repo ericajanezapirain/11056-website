@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow|Montserrat:400,600,700,800|Tajawal&display=swap');
 
 body {
-    background-color: darkgrey;
+    background-color: whitesmoke;
     font-family: 'Tajawal', sans-serif;
     font-size: 16px
 }
@@ -13,7 +13,8 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+
 }
 
 
@@ -21,7 +22,6 @@ h1 {
     font-weight: 600;
     font-size: 28px;
     padding: 20px 0;
-    color: lightsteelblue;
     text-transform: uppercase;
 }
 
@@ -29,8 +29,9 @@ h2 {
     font-weight: 600;
     font-size: 25px;
     color: black;
-    border-bottom: 10px solid #E37944;
-    padding: 30 10 30px 10;
+    border-bottom: 10px solid #BABECC;
+    border-top: 10px solid whitesmoke;
+    padding: 30 0 30px 10;
     text-align: center;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -45,7 +46,7 @@ p {
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 18px;
-    line-height: 20px;
+    line-height: 25px;
     color: black;
 
 
@@ -141,7 +142,7 @@ nav ul li a {
 nav ul li a {
 
 
-    background-color: #ECA52C;
+    background-color: #EB6931;
     color: black;
 }
 
@@ -155,13 +156,14 @@ nav ul li a {
 }
 
 header {
-    background-color: #ECA52C;
+    background-color: #EB6931;
     position: fixed;
     width: 100%;
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 28px;
+    letter-spacing: inherit;
     display: inline-block;
     padding: 10px 0;
 }
@@ -172,7 +174,7 @@ h1 {
 
 
 nav {
-    background-color: #ECA52C;
+    background-color: #EB6931;
     height: 50px;
     display: inline-block;
     float: right;
@@ -180,13 +182,8 @@ nav {
 }
 
 nav ul {
-    background-color: #ECA52C;
+    background-color: #EB6931;
     margin-top: 15px;
-}
-
-
-nav ul li {
-    background-color: #ECA52C;
 }
 
 
@@ -205,14 +202,14 @@ nav ul li {
 
 main {
     /* background imageL url(.../   )   */
-    background-color: lightsteelblue;
+    background-color: whitesmoke;
     /*    margin: 0 20px;*/
     /*    padding: 0px 20px 50px 20px;*/
 
 }
 
 footer {
-    background-color: #ECA52C;
+    background-color: #EB6931;
     height: 60px;
 
 }
