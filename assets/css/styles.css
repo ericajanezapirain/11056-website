@@ -119,6 +119,7 @@ main li {
 
 nav ul {
     list-style-type: none;
+    font-size: 17px;
 
 }
 
@@ -132,7 +133,7 @@ nav ul li a {
     text-decoration: none;
     padding: 15px 15px;
     text-transform: uppercase;
-    background-color: black;
+
 
 
 }
@@ -204,14 +205,14 @@ nav ul li {
 
 main {
     /* background imageL url(.../   )   */
-    background-color: whitesmoke;
+    background-color: lightsteelblue;
     /*    margin: 0 20px;*/
     /*    padding: 0px 20px 50px 20px;*/
 
 }
 
 footer {
-    background-color: whitesmoke;
+    background-color: #ECA52C;
     height: 60px;
 
 }
