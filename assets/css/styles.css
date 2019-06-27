@@ -142,7 +142,7 @@ nav ul li a {
 nav ul li a {
 
 
-    background-color: #EB6931;
+    background-color: rosybrown;
     color: black;
 }
 
@@ -156,7 +156,7 @@ nav ul li a {
 }
 
 header {
-    background-color: #EB6931;
+    background-color: rosybrown;
     position: fixed;
     width: 100%;
 }
@@ -174,7 +174,7 @@ h1 {
 
 
 nav {
-    background-color: #EB6931;
+    background-color: rosybrown;
     height: 50px;
     display: inline-block;
     float: right;
@@ -182,7 +182,7 @@ nav {
 }
 
 nav ul {
-    background-color: #EB6931;
+    background-color: rosybrown;
     margin-top: 15px;
 }
 
@@ -191,7 +191,7 @@ nav ul {
 
 
 .hero-content {
-    background-image: url(../images/churchill-house-24.jpg);
+    background-image: url(../images/churchill-house-18.jpg);
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
