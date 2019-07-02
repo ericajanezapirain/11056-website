@@ -3,7 +3,7 @@
 body {
     background-color: whitesmoke;
     font-family: 'Tajawal', sans-serif;
-    font-size: 16px
+    font-size: 18px;
 }
 
 
@@ -20,33 +20,33 @@ h4 {
 
 h1 {
     font-weight: 600;
-    font-size: 28px;
-    padding: 20px 0;
+    font-size: 1.556em;
+    padding: 1.111em 0;
     text-transform: uppercase;
 }
 
 h2 {
     font-weight: 600;
-    font-size: 25px;
+    font-size: 1.389em;
     color: black;
-    border-bottom: 10px solid #BABECC;
-    border-top: 10px solid whitesmoke;
-    padding: 30 0 30px 10;
+    border-bottom: 0.556em solid #BABECC;
+    border-top: 0.556em solid whitesmoke;
+    padding: 30px 0 30px 10px;
     text-align: center;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
 
 h3 {
-    font-size: 23px;
+    font-size: 1.278em;
     margin: 10px 0 20px 0;
 }
 
 p {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 1.111em;
+    margin-bottom: 1.11em;
     font-size: 18px;
-    line-height: 25px;
+    line-height: 1.389em;
     color: black;
 
 
@@ -65,7 +65,7 @@ p {
 }
 */
 .inner {
-    margin: 0 20px;
+    margin: 0 1.111em;
 }
 
 a {
@@ -90,9 +90,9 @@ a:active {
 
 /*just target the paragraph in the foot */
 footer p {
-    font-size: 16px;
+    font-size: 0.889em;
     color: black;
-    padding: 20px;
+    padding: 1.11em;
     text-align: center;
     margin: 0;
 }
@@ -111,7 +111,7 @@ main ol {
 
 main li {
 
-    margin-left: 40px;
+    margin-left: 2.222em;
 }
 
 
@@ -120,7 +120,7 @@ main li {
 
 nav ul {
     list-style-type: none;
-    font-size: 17px;
+    font-size: 0.944em;
 
 }
 
@@ -132,7 +132,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    padding: 15px 15px;
+    padding: 0.833em 0.833em;
     text-transform: uppercase;
 
 
@@ -149,11 +149,66 @@ nav ul li a {
 
 
 .wrapper {
-    width: 980px;
+    width: 70%;
     /*margin TOP/BOTTOM left/right */
     margin: 0 auto;
-    padding-top: 3px;
+    padding-top: 0.167em;
 }
+
+
+@media screen and (max-device-width:26.667em) {
+    .wrapper {
+
+
+        width: 98%;
+    }
+
+
+    /*change image width on mobile*/
+
+    img {
+        max-width: 100%
+    }
+
+
+}
+
+@media screen and (min-device-width:26.667em) {
+    .wrapper {
+        width: 95%;
+    }
+
+    main .wrapper {
+        width: 80%;
+    }
+}
+
+/* this media query will target devices larger than 400px and less than 768px SET AS EM*/
+
+@media screen and (min-device-width: 400px) and (max-device-width: 768px) {
+
+
+    /* override typography */
+
+    h2 {
+        font-size: 2.389em
+    }
+
+    h3 {
+        font-size: 2.278em
+    }
+
+
+    .wrapper {
+
+        width: 95%;
+
+    }
+
+
+
+}
+
 
 header {
     background-color: rosybrown;
@@ -162,10 +217,10 @@ header {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 1.667em;
     letter-spacing: inherit;
     display: inline-block;
-    padding: 10px 0;
+    padding: 0.556em 0;
 }
 
 
@@ -175,7 +230,7 @@ h1 {
 
 nav {
     background-color: rosybrown;
-    height: 50px;
+    height: 2.778em;
     display: inline-block;
     float: right;
 
@@ -183,7 +238,7 @@ nav {
 
 nav ul {
     background-color: rosybrown;
-    margin-top: 15px;
+    margin-top: 0.833em;
 }
 
 
@@ -191,13 +246,37 @@ nav ul {
 
 
 .hero-content {
-    background-image: url(../images/churchill-house-18.jpg);
-    height: 400px;
+    height: 22.222em;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: middle;
-    padding-top: 50px;
+    background-position: center;
+    padding-top: 2.778em;
 }
+
+.hero-content.home {
+    background-image: url(../images/churchill-house-1.jpg);
+}
+
+.hero-content.heritage {
+    background-image: url(../images/churchill-house-12.jpg);
+}
+
+.hero-content.about {
+
+    background-image: url(../images/churchill-house-14.jpg)
+}
+
+.hero-content.the-architect {
+
+    background-image: url(../images/churchill-house-17.jpg)
+}
+
+
+.hero-content.significance {
+
+    background-image: url(../images/churchill-house-17.jpg)
+}
+
 
 
 main {
@@ -210,7 +289,7 @@ main {
 
 footer {
     background-color: #BABECC;
-    height: 60px;
+    height: 3.333em;
 
 }
 
@@ -222,14 +301,14 @@ img {
 
 
 .image-box .main image {
-    max-height: 300px;
-    border: 1px solid #fff;
-    padding: 20px;
+    max-height: 16.667em;
+    border: 0.056em solid #fff;
+    padding: 1.111em;
 
 }
 
 .image-two {
-    max-width: 940px;
+    /*    max-width: 52.222em;*/
 }
 
 
