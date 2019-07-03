@@ -31,15 +31,15 @@ h2 {
     color: black;
     border-bottom: 0.556em solid #BABECC;
     border-top: 0.556em solid whitesmoke;
-    padding: 30px 0 30px 10px;
+    padding: 1.667em 0.00em 1.667em 0.566em;
     text-align: center;
-    letter-spacing: 1px;
+    letter-spacing: 0.056em;
     text-transform: uppercase;
 }
 
 h3 {
     font-size: 1.278em;
-    margin: 10px 0 20px 0;
+    margin: 0.566em 0.00em 1.111em 0.00em;
 }
 
 p {
@@ -185,7 +185,7 @@ nav ul li a {
 
 /* this media query will target devices larger than 400px and less than 768px SET AS EM*/
 
-@media screen and (min-device-width: 400px) and (max-device-width: 768px) {
+@media screen and (min-device-width: 22.222em) and (max-device-width: 42.667em) {
 
 
     /* override typography */
@@ -220,7 +220,7 @@ h1 {
     font-size: 1.667em;
     letter-spacing: inherit;
     display: inline-block;
-    padding: 0.556em 0;
+    padding: 0.556em 000em;
 }
 
 
