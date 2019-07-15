@@ -48,9 +48,6 @@ p {
     font-size: 18px;
     line-height: 1.389em;
     color: black;
-
-
-
 }
 
 /*
@@ -100,6 +97,7 @@ footer p {
 
 main ul {
     list-style-type: disc;
+    margin-bottom: 1.6em;
 
 }
 
@@ -112,6 +110,7 @@ main ol {
 main li {
 
     margin-left: 2.222em;
+    margin-bottom: 0.6em;
 }
 
 
@@ -184,7 +183,6 @@ nav ul li a {
 }
 
 /* this media query will target devices larger than 400px and less than 768px SET AS EM*/
-
 @media screen and (min-device-width: 22.222em) and (max-device-width: 42.667em) {
 
 
@@ -243,7 +241,7 @@ nav ul {
 
 
 
-
+/*this applies to the layout of the hero content on all of the pages*/
 
 .hero-content {
     height: 22.222em;
@@ -252,6 +250,9 @@ nav ul {
     background-position: center;
     padding-top: 2.778em;
 }
+
+
+/*this changes the hero content image on selected pages*/
 
 .hero-content.home {
     background-image: url(../images/churchill-house-1.jpg);
@@ -274,7 +275,7 @@ nav ul {
 
 .hero-content.significance {
 
-    background-image: url(../images/churchill-house-17.jpg)
+    background-image: url(../images/churchill-house-18.jpg)
 }
 
 
