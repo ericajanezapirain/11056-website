@@ -42,8 +42,12 @@ h3 {
     margin: 0.566em 0.00em 1.111em 0.00em;
 }
 
+
+/*h4: photo captions*/
+
 h4 {
-    font-size: 0.88em;
+    font-size: 0.80em;
+    margin: 0.566em 0.00em 1.111em 0.00em;
 }
 
 p {
@@ -54,17 +58,7 @@ p {
     color: black;
 }
 
-/*
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    margin: 0 20px;
-}
-*/
+
 .inner {
     margin: 0 1.111em;
 }
@@ -158,6 +152,7 @@ nav ul li a {
     padding-top: 0.167em;
 }
 
+/*to ensure website is responsive on all devices*/
 
 @media screen and (max-device-width:26.667em) {
     .wrapper {
